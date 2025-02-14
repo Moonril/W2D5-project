@@ -26,6 +26,7 @@ a {
     color: #f6ffff;
     font-weight: normal;
 }
+
 li {
     list-style-type: none;
 }
@@ -67,7 +68,7 @@ main {
     margin: 20px;
 }
 
-/* ORANGE SECTION */
+/* orange SECTION */
 
 .orange {
     background-color: #f36600;
@@ -78,7 +79,7 @@ main {
     font-size: 0.7em;
 }
 
-/* GUIDE SECTION */
+/* guide SECTION */
 
 .guide {
     background-image: url(../images/bg-image.png);
@@ -98,7 +99,7 @@ h3 {
     font-size: 0.7em;
 }
 
-/* MULTIPLE PHOTO SECTION */
+/* multiple photo SECTION */
 
 
 .multiple {
