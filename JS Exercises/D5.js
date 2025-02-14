@@ -136,8 +136,34 @@ while ( x < numericArray.length) {
     dell'alfabeto italiano.
     es. [f, b, e] --> [6, 2, 5]
 */
-/* const charactersArray = ['g', 'n', 'u', 'z', 'd']
+const charactersArray = ['g', 'n', 'u', 'z', 'd']
+const alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'z']
 
-let newCharArray = []
+let newCharArray = charactersArray.map(letter => {
+  switch(letter) {
+    case 'a': return 1
+    case 'b': return 2
+    case 'c': return 3
+    case 'd': return 4
+    case 'e': return 5
+    case 'f': return 6
+    case 'g': return 7
+    case 'h': return 8
+    case 'i': return 9
+    case 'l': return 10
+    case 'm': return 11
+    case 'n': return 12
+    case 'o': return 13
+    case 'p': return 14
+    case 'q': return 15
+    case 'r': return 16
+    case 's': return 17
+    case 't': return 18
+    case 'u': return 19
+    case 'v': return 20
+    case 'z': return 21
+    default: return -1
+  }
+})
 
-switch */
+console.log('Letters position in the alphabet', newCharArray)
